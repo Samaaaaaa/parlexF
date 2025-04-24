@@ -1,0 +1,29 @@
+.signIn{
+    background-color: var(--Surface-1);
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 80vh;
+}
+
+.signCard{
+    border-radius: 24px;
+    border: 1px solid var(--surface-Surface-2, #EBEBEB);
+    background: var(--surface-Surface-1, #FFFFFA);
+    box-shadow: 0px 0px 16px 0px rgba(5, 123, 193, 0.15);
+    width: 480px;
+    padding: 64px 32px;
+}
+
+input{
+    height: 41px;
+    width: 416px;
+}
+
+button{
+    padding: 16px 48px;
+    text-align: center;
+    border-radius: 8px !important;
+    width: 416px !important;
+
+}
