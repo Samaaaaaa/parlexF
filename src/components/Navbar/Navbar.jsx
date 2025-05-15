@@ -1,14 +1,15 @@
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import './Navbar.css';
+import styles from './Navbar.module.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
+import profile from '../../../src/assets/images/profile.png'
 
 function TextLinkExample() {
   return (
     <Navbar className="shadow">
       <Container>
-        <Navbar.Brand className="navBrand d-flex gap-2" href="#home">
+        <Navbar.Brand className={` d-flex gap-2 ${styles.navBrand}`} href="#home">
         <img className='w-25' src="/public/Frame.svg" alt="logo" />
           Barlex
           </Navbar.Brand>
@@ -16,7 +17,7 @@ function TextLinkExample() {
         <Navbar.Collapse className="justify-content-end">
         
           <Navbar.Text>
-            <img className='profile pe-2' src="/profile.png" alt="" />
+            <img className={`${styles.profile} pe-2`} src={profile} alt="" />
               Kristine Lemke
             <FontAwesomeIcon className='ps-2' icon={faAngleDown} />
           </Navbar.Text>

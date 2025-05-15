@@ -7,36 +7,28 @@
 .callImage{
     width: 54px;
     height: 54px;
-}
-
-.contain {
-    display: flex;
-    flex: 1;
-  }
-  
-  .form-section label span{
-    color: #D00202;
+}  
+  .spann{
+    color: #D00202 !important;
     font-weight: 700;
   }
 
-  .form-section input {
+  .inputt {
     width: 100%;
     padding: 10px 14px;
     margin: 10px 0;
     border: 1px solid var(--surface-Surface-3);
     border-radius: 8px;
     box-shadow: 0px 1px 2px 0px rgba(10, 13, 18, 0.05);
-
   }
 
-  .form-section {
-    flex: 1;
+  .formSection {
     padding: 40px;
     background-color: #fff;
   }
 
  
-  .form-section button {
+  .formSection .buttonn {
     width: 100%;
     padding: 16px 48px;
     color: white;
@@ -46,12 +38,12 @@
     cursor: pointer;
   }
 
-  .form-section a {
+  .formSection a {
     color: var( --primary-color);
     text-decoration: none;
   }
 
-  .side-section {
+  .sideSection {
     flex: 1;
     padding: 40px;
     background: linear-gradient(to bottom right, #f0fff0, #e6f7ff);
@@ -64,19 +56,17 @@
     align-items: flex-start;
   }
   
-  .side-section ul {
+  .sideSection ul {
     list-style: none;
     padding: 0;
   }
 
-  .side-section h3 {
+  .sideSection h3 {
     max-width: 400px;
     font-size: 1.5rem;
   }
 
-  .rightImg{
-    margin: 5px;
-    border-radius: 15px;
-    width: 18px;
-    height: 18px;
-  }
+  .disabledButton {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -1,5 +1,5 @@
 import React from 'react';
-import './PasswordReset.css'
+import './PasswordReset.module.css'
 
 const PasswordReset = () => {
     return (

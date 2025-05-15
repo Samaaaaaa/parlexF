@@ -1,12 +1,12 @@
 import React from 'react';
-import './AddAtorney.css'
+import styles from './AddAtorney.module.css'
 
 const AddAtorney = () => {
     return (
         <div>
             <div className="container">
                 <h3> <span> Add </span>  User</h3>
-                       <div className="d-flex gap-4 padding32">
+                       <div className={`d-flex gap-4 ${styles.padding32}`}>
                             <div className="">
                                 <label className='d-block' htmlFor=""> First Name </label>
                                 <input type="text" placeholder='Kristine Lemke Josef' />
@@ -18,7 +18,7 @@ const AddAtorney = () => {
                             </div>
                        </div>
 
-                        <div className="d-flex gap-4 padding32">
+                        <div className={`d-flex gap-4 ${styles.padding32}`}>
                             <div className="">
                                 <label className='d-block' htmlFor=""> Email </label>
                                 <input type="email" placeholder='Kristine Lemke Josef' />
@@ -36,7 +36,7 @@ const AddAtorney = () => {
                             </div>
                         </div>
 
-                        <div className="padding32">
+                        <div className={styles.padding32}>
                             <label className='d-block' htmlFor=""> Country </label>
                            <select name="" id="">
                                 <option value="">cairo</option>
@@ -47,8 +47,8 @@ const AddAtorney = () => {
                         </div>
 
                         <div className="d-flex flex-sm-row-reverse">
-                            <button className='btnn btn1'>Save</button>
-                            <button className='btnn btn2'>Cancel</button>
+                            <button className={`${styles.btnn} ${styles.btn1 }`}>Save</button>
+                            <button className={`${styles.btnn} ${styles.btn1 }`}>Cancel</button>
                         </div>
             </div>
         </div>

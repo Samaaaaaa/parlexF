@@ -1,8 +1,11 @@
-import './Card.css';
+import styles from './Card.module.css';
 
 // UI
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+
+// image
+import atorney from '../../../src/assets/images/attorney.png'
 
 // ElevenLabs & hooks
 import {useConversation} from '@11labs/react';  
@@ -79,7 +82,7 @@ const VoiceChat = () =>{
               border: "solid 4px white",
               boxShadow: "0px 0px 50px 24px rgba(0, 140, 255, 0.1)",
             }}
-            src = {user.image}
+            src = {atorney}
             alt ={user.name}
           />
           <Card.Body className="text-center ">

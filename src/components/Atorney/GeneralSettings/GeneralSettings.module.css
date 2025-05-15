@@ -12,32 +12,35 @@
 }
 
 /* Left Navigation */
-.settings-nav {
+.settingsNav {
     width: 724px;
+
    
 }
 
-.settings-nav ul {
+.settingsNav ul {
     list-style: none;
+    
 }
 
-.settings-nav span{
+.settingsNav span{
     color: black;
     width: 32px;
     height: 32px;
     padding: 5px 11px;
     border-radius: 16px;
-    background: #EBEBEB;    
+    background: #EBEBEB;   
+     
 }
 
 
-.settings-nav li {
+.settingsNav li {
 
     cursor: pointer;
     font-weight: 500; 
 }
 
-.settings-nav li.active {
+.settingsNav li.active {
     /* background: #f0f8ff;
     color: #0066cc;
     font-weight: 600;
@@ -45,20 +48,20 @@
 }
 
 /* Main Content */
-.settings-content {
+.settingsContent {
     flex: 1;
     padding: 40px;
     max-width: 800px;
 }
 
-.settings-section h1 {
+.settingsSection h1 {
     color: #1a1a1a;
     font-size: 24px;
     margin-bottom: 32px;
 }
 
 /* Form Groups */
-.form-group {
+.formGroup {
     margin-bottom: 32px;
     background: white;
     padding: 24px;
@@ -66,21 +69,21 @@
     border: 1px solid #e0e0e0;
 }
 
-.form-group h3 {
+.formGroup h3 {
     color: #1a1a1a;
     font-size: 16px;
     margin-bottom: 8px;
     font-weight: 600;
 }
 
-.form-group p {
+.formGroup p {
     color: #666;
     font-size: 14px;
     margin-bottom: 16px;
 }
 
 /* Form Controls */
-.form-control {
+.formControl {
     width: 100%;
     padding: 12px;
     border: 1px solid #e0e0e0;
@@ -89,36 +92,36 @@
     font-size: 14px;
 }
 
-.form-control:focus {
+.formControl:focus {
     outline: none;
     border-color: #0066cc;
     box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.1);
 }
 
 /* Language Options */
-.language-options {
+.languageOptions {
     margin-top: 16px;
 }
 
-.language-item {
+.languageItem {
     display: flex;
     align-items: center;
     margin: 12px 0;
 }
 
-.language-item input {
+.languageItem input {
     margin-right: 12px;
     width: 18px;
     height: 18px;
 }
 
-.language-item label {
+.languageItem label {
     font-size: 14px;
     color: #1a1a1a;
 }
 
 /* Button */
-.btn-primary {
+.btnPrimary {
     background-color: #0066cc;
     color: white;
     padding: 12px 24px;
@@ -129,12 +132,12 @@
     float: right;
 }
 
-.btn-primary:hover {
+.btnPrimary:hover {
     background-color: #0052a3;
 }
 
 /* Form Actions */
-.form-actions {
+.formActions {
     clear: both;
     padding-top: 24px;
 }
